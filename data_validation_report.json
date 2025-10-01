@@ -1,0 +1,41 @@
+{
+  "structure": {
+    "total_rows": 7043,
+    "total_columns": 21,
+    "missing_columns": [],
+    "extra_columns": [],
+    "structure_valid": true
+  },
+  "missing_values": {
+    "total_missing_values": "0",
+    "columns_with_missing": 0,
+    "missing_by_column": {}
+  },
+  "data_types": {
+    "type_issues": {},
+    "types_valid": true
+  },
+  "value_ranges": {
+    "range_violations": {},
+    "ranges_valid": true
+  },
+  "categorical_values": {
+    "categorical_issues": {},
+    "categoricals_valid": true
+  },
+  "duplicates": {
+    "duplicate_customer_ids": 0,
+    "duplicate_rows": 0,
+    "duplicates_found": "False"
+  },
+  "business_logic": {
+    "business_issues": [],
+    "business_logic_valid": true
+  },
+  "summary": {
+    "overall_quality_score": 100.0,
+    "checks_passed": 7,
+    "total_checks": 7,
+    "data_ready_for_training": true
+  }
+}
