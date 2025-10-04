@@ -29,6 +29,36 @@ This project demonstrates a complete end-to-end machine learning pipeline for te
 - **Professional UI/UX** with responsive design
 - **Business intelligence** with ROI analysis and strategic recommendations
 
+## Data Analysis & Exploration
+
+### Comprehensive Exploratory Data Analysis
+![Comprehensive EDA](plots/comprehensive_eda.png)
+
+*Complete statistical analysis and visualization of the telecom customer dataset including feature distributions, correlations, and churn patterns analysis*
+
+## Dataset Information
+
+### Telco Customer Churn Dataset
+- **Source**: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- **Size**: 7,043 customer records with 21 features
+- **Target Variable**: Customer churn (binary classification)
+- **File**: `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+
+### Dataset Features
+| Category | Features | Description |
+|----------|----------|-------------|
+| **Customer Demographics** | CustomerID, Gender, SeniorCitizen, Partner, Dependents | Basic customer information |
+| **Account Information** | Tenure, Contract, PaperlessBilling, PaymentMethod | Service and billing details |
+| **Services** | PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies | Subscribed services |
+| **Charges** | MonthlyCharges, TotalCharges | Billing information |
+| **Target** | Churn | Whether customer left (Yes/No) |
+
+### Key Statistics
+- **Total Customers**: 7,043
+- **Churn Rate**: 26.5% (1,869 churned customers)
+- **Average Tenure**: 32.4 months
+- **Average Monthly Charges**: $64.76
+
 ## Features
 
 ### Machine Learning Pipeline
@@ -48,6 +78,19 @@ This project demonstrates a complete end-to-end machine learning pipeline for te
 - **Strategic Recommendations**: Actionable retention strategies
 - **Performance Monitoring**: Model accuracy and prediction history
 
+## Application Interface
+
+### Customer Information Input Forms
+
+#### Demographics Tab
+![User Demographics](demo/user-demographics.png)
+
+#### Services Configuration Tab  
+![Services](demo/services.png)
+
+#### Billing Information Tab
+![Billing](demo/billing.png)
+
 ## Prediction Workflow
 
 ### Risk Classification System
@@ -58,16 +101,51 @@ This project demonstrates a complete end-to-end machine learning pipeline for te
 | **Maintain Excellence** | **Proactive Engagement** | **Immediate Action Required** |
 | Loyalty programs, upselling opportunities | Satisfaction surveys, personalized offers | Retention calls, significant discounts |
 
+### Alternative Gauge Visualizations
+
+#### Low Risk Predictions (0-35%)
+![Green Gauge Prediction](demo/green-gauge-prediction.png)
+
+#### Medium Risk Predictions (35-55%)
+![Yellow Gauge Prediction](demo/yellow-gauge-prediction.png)
+
+#### High Risk Predictions (55-100%)
+![Red Gauge Prediction](demo/red-gauge-prediction.png)
+
+### Actionable Recommendations
+
+#### Low Risk Customer Recommendations
+![Recommended Actions Low Risk](demo/recommended-actions-low-risk.png)
+
+#### Medium Risk Customer Recommendations  
+![Recommended Actions Medium Risk](demo/recommended-actions-medium-risk.png)
+
+#### High Risk Customer Recommendations
+![Recommended Actions High Risk](demo/recommended-actions-high-risk.png)
+
+### Prediction History Tracking
+![Prediction History](demo/prediction-history.png)
+
 ## Analytics & Insights
 
 ### Customer Behavior Analysis
 ![Analytics Dashboard](demo/analytics-dashboard.png)
 
+### Customer Tenure Analysis
+![Customer Tenure Analysis](demo/customer-tenure-analysis.png)
+
 ### Model Performance Evaluation
-![Model Performance](demo/model-performance.png)
+![Model Performance Analysis](demo/model-performance-analysis.png)
+
+### Model Comparison Metrics
+![Model Accuracy Comparison](demo/model-accuracy-comparison.png)
+![ROC AUC Score Comparison](demo/ROC-AUC-score-comparison.png)
 
 ### Business Impact Assessment
 ![Business Insights](demo/business-insights.png)
+
+### Strategic Planning
+![Strategic Action Plans](demo/strategic-action-plans.png)
 
 ## Technology Stack
 
@@ -103,18 +181,22 @@ This project demonstrates a complete end-to-end machine learning pipeline for te
 ## System Architecture
 
 ```
+├── .ipynb_checkpoints/             # Jupyter notebook checkpoints
 ├── app.py                          # Main Streamlit application
 ├── train_model.py                  # Model training pipeline
 ├── config.py                       # Configuration settings
 ├── utils.py                        # Utility functions
 ├── validate_data.py               # Data validation module
 ├── requirements.txt               # Dependencies
+├── data_validation_report.json    # Data quality report
 ├── models/
+│   ├── .ipynb_checkpoints/       # Model checkpoints
 │   ├── churn_model.pkl           # Trained model
 │   ├── scaler.pkl                # Feature scaler
 │   └── feature_columns.pkl       # Feature columns mapping
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── plots/                          # EDA visualizations and charts
 ├── demo/                          # Screenshots for documentation
 └── End-to-End Customer Churn Prediction System.ipynb
 ```
@@ -220,8 +302,8 @@ Contributions, issues, and feature requests are welcome!
 
 **Saradha Priya**
 - GitHub: [@saradhapri](https://github.com/saradhapri)
-- LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/saradha-priya-elumalai)
+- Email: [your.email@example.com](mailto:saradhapriyaelumalai@gmail.com)
 
 ## Acknowledgments
 
