@@ -303,7 +303,7 @@ Contributions, issues, and feature requests are welcome!
 **Saradha Priya**
 - GitHub: [@saradhapri](https://github.com/saradhapri)
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/saradha-priya-elumalai)
-- Email: [your.email@example.com](mailto:saradhapriyaelumalai@gmail.com)
+- Email: [saradhapriyaelumalai@example.com](mailto:saradhapriyaelumalai@gmail.com)
 
 ## Acknowledgments
 
