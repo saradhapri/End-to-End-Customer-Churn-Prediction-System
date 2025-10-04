@@ -300,10 +300,12 @@ Contributions, issues, and feature requests are welcome!
 
 ## Author
 
-**Saradha Priya**
-- GitHub: [@saradhapri](https://github.com/saradhapri)
-- LinkedIn: [Connect with me](https://www.linkedin.com/in/saradha-priya-elumalai)
-- Email: [saradhapriyaelumalai@example.com](mailto:saradhapriyaelumalai@gmail.com)
+**Saradha Priya Elumalai**
+
+For questions, feedback, or collaboration opportunities:
+- **GitHub**: [@saradhapri](https://github.com/saradhapri)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/saradha-priya-elumalai)
+- **Email**: [saradhapriyaelumalai@example.com](mailto:saradhapriyaelumalai@gmail.com)
 
 ## Acknowledgments
 
@@ -315,3 +317,4 @@ Contributions, issues, and feature requests are welcome!
 ## License
 
 This project is licensed under the MIT License
+
